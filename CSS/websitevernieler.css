@@ -1,0 +1,162 @@
+.videoContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.ad1 {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 40%;
+
+    left: 0;
+}
+
+.ad2{
+    position: fixed;
+    width: 20%;
+    height: auto;
+    z-index: 3002;
+    margin-top: 0;
+
+    top: 80%; /* Plaats het verticaal in het midden van het scherm */
+    right: 0px; /* Afstand vanaf de linkerkant van het scherm */
+    padding: 10px; /* Ruimte binnenin de advertentie */
+    transform: translateY(-50%); /* Centreer verticaal */
+    border-radius: 50px;
+    visibility: hidden;
+}
+
+.blackBox {
+    position: absolute;
+    background-color: black;
+    top: 0;
+    height: 40vh;
+    width: 100vw;
+    left: 0;
+    z-index: 0;
+}
+
+.siteTitle {
+    font-size: 50px;
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    text-align: center;
+    font-family:  Papyrus;
+
+}
+
+
+.backgroundLeft {
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    left: 0;
+    top: 0;
+}
+
+
+.backgroundRight {
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    right: 0;
+    top: 0;
+}
+
+
+.ourProjectsText {
+    position: relative;
+    position: 600px;
+    margin-top: 700px;
+    margin-left: 500px;
+    z-index: 3000;
+}
+
+body {
+    background-image: url("../background/backgroundArt.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainPage {
+    margin-left: 20vh;
+    margin-top: 35vh;
+    background-color: white;
+    border-radius: 3px;
+    min-height: 300vh;
+    height: 100%;
+    width: 70vw;
+    padding: 24px 36px;
+    position: relative;
+    z-index: -1;
+}
+
+.project1{
+    position: absolute;
+    text-align: center;
+    margin-top: 200px;
+    width: 100px;
+}
+
+.project2{
+    position: absolute;
+    text-align: center;
+    margin-top: 200px;
+    width: 100px;
+    margin-left: 350px;
+}
+
+.project3{
+    position: absolute;
+    text-align: center;
+    margin-top: 200px;
+    width: 100px;
+    margin-left: 700px;
+}
+
+.textBelowProject1{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.imageInProject{
+    position: absolute;
+    width: 330px;
+}
+
+.textBelowProject2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    background-color: aliceblue;
+}
+
+
+.buttonBar{
+    background-color: orangered;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -100px;
+    width: 100px;
+    height: 300px;
+    min-height: 300vh;
+    height: 100%;
+}
+
+.linkOnBar{
+    position: relative;
+    margin-bottom: 50vh;
+    margin-top: 550px;
+    color: crimson;
+    text-decoration: none;
+    background-color: burlywood;
+    border-radius: 10px;
+}
